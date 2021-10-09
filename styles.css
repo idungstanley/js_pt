@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  margin: 3rem auto;
+  border: 3px solid #000;
+  border-radius: 15px;
+  padding: 2rem;
+  background-color: grey;
+}
+
+.searchField {
+}
+
+input {
+  width: 100%;
+  padding: 3rem 1rem;
+  border: 3px solid #000;
+  border-radius: 5px;
+  text-align: right;
+  /* height: 6rem; */
+}
+
+input:focus {
+  outline: none;
+  /* border: none; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.btn-red {
+  padding: 10px;
+  background-color: rgb(216, 101, 101);
+  margin: 10px;
+  border: 2px solid black;
+}
+.btn-blue {
+  padding: 10px;
+  background-color: rgb(32, 94, 187);
+  margin: 10px;
+  border: 2px solid black;
+}
+.clear {
+  grid-column: 1/3;
+  text-align: center;
+}
+.delete {
+  text-align: center;
+  grid-column: 3/5;
+}
+.number {
+  padding: 10px;
+  margin: 6px;
+  border: 2px black solid;
+  border-color: ivory;
+  background-color: lightcyan;
+}
